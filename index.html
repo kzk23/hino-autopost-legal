@@ -1,0 +1,42 @@
+<!doctype html><html lang="en"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hino Family Autopost</title>
+<style>
+body{font-family:-apple-system,"Segoe UI",Roboto,sans-serif;max-width:44rem;margin:0 auto;
+padding:2.5rem 1.2rem 4rem;line-height:1.7;color:#1f2328}
+h1{font-size:1.6rem;margin-bottom:.2rem}.sub{color:#6b7280;margin-bottom:2rem}
+h2{font-size:1.15rem;margin-top:2rem}code{background:#f3f4f6;padding:.1rem .3rem;border-radius:4px}
+a{color:#e4405f}ul{padding-left:1.2rem}footer{margin-top:3rem;color:#6b7280;font-size:.9rem}
+</style>
+<h1>Hino Family Autopost</h1>
+<p class="sub">A private scheduling tool for the Hino Family's own social media.</p>
+
+<h2>What it is</h2>
+<p>Hino Family Autopost is a small, private automation operated by the Hino Family.
+After we finish editing one of our short parenting videos, we approve it in a
+local management console. A scheduled job then publishes that video to the Hino
+Family's own accounts on YouTube, Instagram and TikTok at the date and time we
+chose, together with our own caption and hashtags.</p>
+
+<h2>How TikTok is used</h2>
+<ul>
+<li><b>Content Posting API (Direct Post)</b> &mdash; creates the scheduled post.</li>
+<li><b>Scope <code>video.upload</code></b> &mdash; uploads our own edited MP4 (vertical, under 60s) to our own TikTok account.</li>
+<li><b>Scope <code>video.publish</code></b> &mdash; publishes that uploaded video as a public post on the same single account (ours).</li>
+</ul>
+<p>The integration authenticates exactly one TikTok account &mdash; the owner's &mdash; via
+OAuth, and stores only that account's refresh token. It never reads or touches
+any other user's data. There are no third-party or external end users.</p>
+
+<h2>Who can use it</h2>
+<p>Only the operator (the Hino Family). This is not a public product or service.</p>
+
+<h2>Contact</h2>
+<p><a href="mailto:kzkgoat23@gmail.com">kzkgoat23@gmail.com</a></p>
+
+<footer>
+<a href="terms.html">Terms of Service</a> &nbsp;&middot;&nbsp;
+<a href="privacy.html">Privacy Policy</a><br>
+&copy; 2026 Hino Family
+</footer>
+</html>
